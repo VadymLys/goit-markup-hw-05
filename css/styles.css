@@ -756,7 +756,14 @@ fill: #ffffff;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-user:focus{
+.modal-input:focus + .modal-user{
     fill: #4D5AE5;
 }
 
+.modal-user{
+    margin-bottom: 8px;
+}
+
+.modal-email {
+    position:relative;
+}
