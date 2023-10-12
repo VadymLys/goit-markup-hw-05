@@ -464,8 +464,6 @@
           </div>
         </div>
 
-       
-
         <div class="user-comment">
           <label for="user-comment" class="modal-mark" >Comment</label>
           <textarea name="user-comment" id="user-comment" cols="30" rows="10" placeholder="Text input" class="user-textarea"></textarea>
@@ -474,10 +472,12 @@
         </div>
           
 
-          
-
-          <checkbox></checkbox>
-          <p>I accept the terms and conditions of the <span>Privacy Policy</span></p>
+        <div class="checkbox">
+          <input type="checkbox" id="user-privacy" value="true" name="user-privacy" class="checkbox-input visually-hidden">
+         <label for="user-privacy" class="user-label">I accept the terms and conditions of the<span class="user-span">
+          <svg width="10" height="8" class="user-check"><use href="./images/icons.svg#icon-Checkbox"></use></svg></span><a href="" class="user-link">Privacy Policy</a></label>
+        </div>
+        <button class="user-btn"></button>
           
         </form>
       </div>
