@@ -816,11 +816,13 @@ fill: #ffffff;
     border-radius:2px;
 }
 
-.checkbox-input:checked + .user-span{
+.checkbox-input:checked + .user-label{
 background-color:#404bbf;
 border: none;
 fill:#F4F4FD;
 }
+
+
 
 .user-link{
     color:#4d5ae5;
