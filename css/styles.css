@@ -816,7 +816,7 @@ fill: #ffffff;
     border-radius:2px;
 }
 
-.checkbox-input:checked + .user-span{
+.checkbox-input:checked + .user-check{
 background-color:#404bbf;
 border: none;
 fill:#F4F4FD;
@@ -837,4 +837,5 @@ fill:#F4F4FD;
    color:#ffffff;
    border-radius:4px;
    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   background-color: #4D5AE5;
 }
