@@ -735,6 +735,9 @@ fill: #ffffff;
     margin-bottom:4px;
 
 }
+.input-wrapper{
+    position:relative;
+}
 
 .modal-input{
     width:100%;
@@ -751,7 +754,7 @@ fill: #ffffff;
 .modal-user{
     position:absolute;
     left:16px;
-    top:50%;
+    top: 50%;
     transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -760,10 +763,8 @@ fill: #ffffff;
     fill: #4D5AE5;
 }
 
+
 .modal-user{
     margin-bottom: 8px;
 }
 
-.modal-email {
-    position:relative;
-}
