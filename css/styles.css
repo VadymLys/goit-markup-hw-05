@@ -816,7 +816,7 @@ fill: #ffffff;
     border-radius:2px;
 }
 
-.checkbox-input:checked + .user-check{
+.checkbox-privacy:checked + .user-label > .user-span{
 background-color:#404bbf;
 border: none;
 fill:#F4F4FD;
