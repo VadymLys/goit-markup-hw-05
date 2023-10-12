@@ -816,7 +816,7 @@ fill: #ffffff;
     border-radius:2px;
 }
 
-.checkbox-input:checked + .user-label{
+.checkbox-input:checked + .user-check{
 background-color:#404bbf;
 border: none;
 fill:#F4F4FD;
