@@ -571,7 +571,9 @@ margin-bottom: 16px;
 
 .social-media-list{
    display: flex;
-    gap:16px;
+   gap:16px;
+   margin-right:80px;
+
 }
 
 .social-media-item{
